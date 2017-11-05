@@ -1,0 +1,22 @@
+{
+  "name": "material-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass scss/main.scss --include-path node_modules --output css --source-map-embed --source-map-contents --output-style compressed",
+    "watch:sass": "npm run sass -- --watch"
+  },
+  "keywords": [],
+  "author": "Christian",
+  "license": "ISC",
+  "dependencies": {
+    "@material/button": "^0.24.0",
+    "@material/card": "^0.24.0",
+    "@material/textfield": "^0.24.0",
+    "@material/typography": "^0.3.0",
+    "material-components-web": "^0.24.0",
+    "node-sass": "^4.6.0"
+  }
+}
